@@ -25,7 +25,7 @@ pub struct ChatRequest {
 
 #[derive(Deserialize, Debug)]
 pub struct PythonResponse {
-    pub result: PythonResult,
+    pub result: Message,
 }
 
 #[derive(Deserialize, Debug)]
